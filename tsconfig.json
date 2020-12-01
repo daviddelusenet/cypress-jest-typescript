@@ -3,6 +3,7 @@
     "noEmit": true, // Do not emit outputs
     "skipLibCheck": true, // Skips node_modules when type-checking
     "strict": true // Enable all strict type checking options
-  },
-  "exclude": ["cypress"]
+  }
+  // If you uncomment the line below the Jest/Chai types collision won't happen. However, you also won't have a types check in the cypress folder which is the issue
+  // "exclude": ["cypress"]
 }
