@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "noEmit": true, // Do not emit outputs
+    "skipLibCheck": true, // Skips node_modules when type-checking
+    "strict": true // Enable all strict type checking options
+  },
+  "exclude": ["cypress"]
+}

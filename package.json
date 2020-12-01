@@ -1,0 +1,33 @@
+{
+  "name": "cypress-jest-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "cypress": "cypress open",
+    "check": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviddelusenet/cypress-jest-typescript.git"
+  },
+  "author": "David de Lusenet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daviddelusenet/cypress-jest-typescript/issues"
+  },
+  "homepage": "https://github.com/daviddelusenet/cypress-jest-typescript#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/jest": "^26.0.15",
+    "babel-jest": "^26.6.3",
+    "cypress": "^6.0.1",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.2"
+  }
+}
